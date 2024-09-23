@@ -127,7 +127,8 @@ def main():
                         format="%(levelname)s: %(message)s")
 
     # For all model IDs, please visit https://docs.aws.amazon.com/bedrock/latest/userguide/model-ids.html
-    model_id = "ai21.jamba-instruct-v1:0"
+    model_id = "ai21.jamba-1-5-large-v1:0" #Jamba 1.5 Large
+    #model_id = "ai21.jamba-1-5-mini-v1:0" #Jamba 1.5 Mini
 
     # Setup the system prompts and messages to send to the model.
     system_prompts = [{"text": "You are an app that creates playlists for a radio station that plays rock and pop music."
